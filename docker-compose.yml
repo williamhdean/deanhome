@@ -4,7 +4,7 @@ services:
     image: mariadb:10.2
     environment:
       MYSQL_DATABASE: drupal
-      MYSQL_ROOT_PASSWORD: ParadiseCity93
+      MYSQL_ROOT_PASSWORD: drupal
     volumes:
       - db_data:/var/lib/mysql
     ports:
